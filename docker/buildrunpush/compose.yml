@@ -3,7 +3,7 @@
 version: '3.8' # Specify the Docker Compose file version
 services:
   app:
-    image: image:version # automatically updated when using make_docker.sh
-    container_name: mywebapp
+    image: image:version
+    container_name: helloworld
     ports:
       - "80:8000" # Port mapping, <input from web>:<container port>

@@ -1,4 +1,4 @@
-# Docker Utility Script
+# Docker build, run and push Utility Script
 
 ## Overview
 This Bash script provides a convenient utility for Docker operations. It automates the following tasks:
