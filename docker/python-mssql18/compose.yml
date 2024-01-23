@@ -1,0 +1,7 @@
+# getting started compose.yml file for mssql18
+
+version: '3.8' # Specify the Docker Compose file version
+services:
+  app:
+    image: image:version
+    container_name: mssql18
