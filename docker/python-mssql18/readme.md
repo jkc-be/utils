@@ -3,7 +3,7 @@
 ## Overview
 This repo provides a Dockerfile that you can use to:
    - Create a linux container with Python3.11 and `pyodbc`.
-   - Connect to a MSSQL server 18 (change Dockerfile for v17).
+   - Connect to a MSSQL18 (change Dockerfile for v17).
 
 ## Quickstart
    - Update `src/connection_string.txt` with your MSSQL18 credentials **(DO NOT USE IN PRODUCTION)**.
