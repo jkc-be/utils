@@ -2,7 +2,7 @@
 
 ## Overview
 This repo provides a Dockerfile that you can use to:
-   - Create a linux container with Python3.11 and pyodbc.
+   - Create a linux container with Python3.11 and `pyodbc`.
    - Connect to a MSSQL server 18 (change Dockerfile for v17).
 
 ## Quickstart
