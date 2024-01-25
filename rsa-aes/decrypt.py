@@ -3,8 +3,7 @@
 import os
 
 print("installing cryptography \n")
-os.system("pip install -r requirements.txt")
-print("\n")
+os.system("pip install -r requirements.txt > /dev/null 2>&1")
 
 import base64
 import json
