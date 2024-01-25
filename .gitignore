@@ -4,4 +4,4 @@
 *.pem
 
 # outputs
-response.json
+*/response.json
