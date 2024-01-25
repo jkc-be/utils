@@ -3,5 +3,5 @@
 # RSA keys
 *.pem
 
-# outputs
-*/response.json
+# all json files
+*.json
