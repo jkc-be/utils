@@ -2,3 +2,6 @@
 
 # RSA keys
 *.pem
+
+# outputs
+response/response.json
