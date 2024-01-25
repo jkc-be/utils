@@ -48,4 +48,5 @@ cipher = Fernet(aes_key)
 # ### 3. use AES key to decrypt message
 emailEncrypted = response.get("emailEncrypted", None)
 decrypted_email = cipher.decrypt(emailEncrypted).decode("utf-8")
-print(decrypted_email)
+print("encrypted email: " + emailEncrypted)
+print("decrypted mail: " + decrypted_email)
