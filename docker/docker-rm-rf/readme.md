@@ -7,18 +7,18 @@
 1. **Download the Script**
    - You can download the `dockerrmrf` script from [this link](https://github.com/jkc-be/utils/blob/main/docker/docker-rm-rf/dockerrmrf.sh).
 
-2. **Make the Script Executable**
+2. **Move the Script to a Directory in Your PATH**
+   - You can move it to `/usr/local/bin`, which is typically included in the system's PATH. Use this command (you might need to enter your password):
+     ```bash
+     sudo cp dockerrmrf.sh /usr/local/bin/dockerrmrf
+     ```
+
+3. **Make the Script Executable**
    - Open Terminal.
    - Navigate to the directory where you downloaded the script.
    - Run the following command to make the script executable:
      ```bash
-     chmod +x dockerrmrf.sh
-     ```
-
-3. **Move the Script to a Directory in Your PATH**
-   - You can move it to `/usr/local/bin`, which is typically included in the system's PATH. Use this command (you might need to enter your password):
-     ```bash
-     sudo mv dockerrmrf.sh /usr/local/bin/dockerrmrf
+     sudo chmod +x /usr/local/bin/dockerrmrf
      ```
 
 4. **Run the Script**
