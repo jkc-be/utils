@@ -5,7 +5,7 @@
 ## Usage
 
 1. **Download the Script**
-   - You can download the `dockerrmrf` script from [this link](insert_link_here).
+   - You can download the `dockerrmrf` script from [this link](https://github.com/jkc-be/utils/blob/main/docker/docker-rm-rf/dockerrmrf.sh).
 
 2. **Make the Script Executable**
    - Open Terminal.
