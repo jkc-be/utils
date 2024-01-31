@@ -15,4 +15,10 @@ docker volume rm $(docker volume ls -q) 2>/dev/null
 # Remove all networks (except default networks)
 docker network rm $(docker network ls -q) 2>/dev/null
 
+# Builder prune
+docker builder prune -f 2>/dev/null
+
+# Docker system prune
+docker system prune -a -f 2>/dev/null
+
 echo "Docker cleanup complete."
